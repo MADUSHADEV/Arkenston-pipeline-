@@ -1,5 +1,10 @@
-import ContactCore from '@/core/pages/contact';
+import React from 'react';
 
 export default function Contact() {
-    return <ContactCore />;
+    return (
+        <div>
+            <h1>Contact</h1>
+            {/* Add your contact page content here */}
+        </div>
+    );
 }
